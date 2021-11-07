@@ -4,6 +4,8 @@ const masterWeather=require('./weather.js')
 const os = require("os");
 const bodyParser = require("body-parser");
 const cityWeather = masterWeather.cityWeather; 
+const app=express();
+app.listen(3000);
 app.get("/", (req,res)=> {
     res.sendFile(__dirname + "/public/index.html");
 })
