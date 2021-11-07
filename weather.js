@@ -1,8 +1,6 @@
 var kingstonMonday = {
     conditions: 'Rainy',
-    night : 14,
     POP : 21,
-    wind: 10,
     hrsOfSun: "10hr",
     hrRain: "5hr", 
 };
